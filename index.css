@@ -439,18 +439,6 @@ footer .text span a:hover{
   display: none;
 }
 
-.form{
-  width: 80%;
-  height: 50%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.form #talk{
-  background:#f0f8ff;
-  border-radius: 6%;
-}
-
 /*responsive media queries*/
 @media (max-width:1190px){
   section .content{
@@ -560,7 +548,14 @@ footer .text span a:hover{
   }
 
   .skills-details .boxes .per{
-    font-size: 50px;
+    font-size: 15px;
+    color:#eb5b53;
+  }
+}
+
+@media (max-width:250px){
+  .skills-details .boxes .per{
+    font-size: 7px;
     color:#eb5b53;
   }
 }
